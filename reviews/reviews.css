@@ -1,3 +1,33 @@
-.spearandshieldbackground {
-    size: 100%;
-}
+html {
+    background-color: #000;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .page {
+    position: relative;
+  }
+  
+  .bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .rating {
+    position: absolute;
+    left: 38%;
+    transform: translateX(-50%);
+    width: 50%;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .hotspot {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    background: rgba(255, 0, 0, 0.3); /* TEMPORARY: delete this line once the boxes sit on the names */
+  }
