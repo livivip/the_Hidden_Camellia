@@ -31,8 +31,8 @@ const xs = {
 const heights = { spear: 44, inciting: 60, comics: 44, pasta: 44, pup: 44, girlish: 44 };
 
 // NOTE: next time, all navigation bars and pages need to be the same size and same place on a page
-// per image - gif = top edge of the gif, y = vertical CENTER of each name (all in image pixels)
-// optional gifX = horizontal center of the gif in image pixels (otherwise the CSS left value is used)
+    // per image - gif = top edge of the gif, y = vertical CENTER of each name (all in image pixels)
+    // optional gifX = horizontal center of the gif in image pixels (otherwise the CSS left value is used)
 const layouts = {
     "1_spear":    { gif: 1480, y: { spear: 852, inciting: 928, comics: 986, pasta: 1040, pup: 1112, girlish: 1192 } },
     "2_spear":    { gif: 1920, y: { spear: 825, inciting: 910, comics: 966, pasta: 1020, pup: 1092, girlish: 1172 } },
