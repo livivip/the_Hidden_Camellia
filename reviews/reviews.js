@@ -16,7 +16,7 @@ const archiveSpots = {
 // only list a review once its 1_ and 2_ pngs are in the Images folder, make sure they follow the pattern 
 const ready = ["spear", "pasta", "inciting", "pup", "girlish"];
 
-// horizontal position of each name, [left, width] in image pixels (same on every image)
+// horizontal position of each name, [left, width] in image pixels
 // lowk annoying we need a better solution for this down the road 
 const xs = {
   spear:    [925, 280],
