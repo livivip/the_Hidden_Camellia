@@ -18,9 +18,9 @@ html {
   
   .rating {
     position: absolute;
-    left: 38%;                 /* back to the original centering */
+    left: 38%;                 
     transform: translateX(-50%);
-    width: 40%;                /* was 50% originally, 15% in my last edit; adjust to taste */
+    width: 40%;                
     cursor: pointer;
     z-index: 10;
   }
@@ -29,14 +29,14 @@ html {
     position: absolute;
     cursor: pointer;
     z-index: 10;
-    background: rgba(255, 113, 219, 0.202); /* TEMPORARY: delete this line once the boxes sit on the names */
+    background: rgba(255, 113, 219, 0.202); 
   }
 
   .linkbox {
     position: absolute;
     cursor: pointer;
     z-index: 10;
-    background: rgba(214, 255, 254, 0.231); /* TEMPORARY: delete once it sits on the link */
+    background: rgba(214, 255, 254, 0.231); 
   }
   
   #back {
