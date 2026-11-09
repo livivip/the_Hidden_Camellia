@@ -1,0 +1,51 @@
+html {
+    background-color: #000;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .page {
+    position: relative;
+  }
+  
+  .bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .rating {
+    position: absolute;
+    left: 38%;                 
+    transform: translateX(-50%);
+    width: 40%;                
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .hotspot {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    background: rgba(255, 113, 219, 0.202); 
+  }
+
+  .linkbox {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    background: rgba(214, 255, 254, 0.231); 
+  }
+  
+  #back {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 8px 14px;
+    background: #fff;
+    color: #000;
+    font-family: sans-serif;
+  }
